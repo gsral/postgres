@@ -40,8 +40,6 @@ postgres-docker-playground
 ### 📦 Clone this repository
 
 ```bash
-git clone https://github.com/your-username/postgres-docker-playground.git
-cd postgres-docker-playground
 
 ### 🏃‍♂️ Start the environment
 
