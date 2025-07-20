@@ -1,7 +1,6 @@
 # 🐘 PostgreSQL Docker Playground
 
 This repository contains a collection of Docker configurations for PostgreSQL, designed to help **DBAs** and **Database Reliability Engineers (DBREs)** quickly spin up PostgreSQL environments for testing, learning, and benchmarking.
-
 Whether you're experimenting with replication, testing `pgbench`, or preparing for production-like scenarios, this project makes it easy to get started.
 
 ---
@@ -18,18 +17,17 @@ Whether you're experimenting with replication, testing `pgbench`, or preparing f
 
 ## 🗂️ Repository Structure
 
-postgres-docker-playground/
+postgres-docker-playground
 ├── docker-compose.yaml # Compose file to orchestrate all containers
-├── primary/
-│ └── init/
+├── primary
+│ └── init
 │ └── 01_configure_primary.sh
-├── replica/
-│ └── init/
+├── replica
+│ └── init
 │ └── 01_configure_replica.sh
 ├── Dockerfile # (Optional) Custom PostgreSQL image
 ├── .env # Environment variables (not committed)
 └── README.md # You’re reading it 🙂
-
 
 ---
 
@@ -40,9 +38,6 @@ postgres-docker-playground/
 - [Docker Compose](https://docs.docker.com/compose/)
 
 ### 📦 Clone this repository
-```bash
-git clone https://github.com/<your-username>/postgres-docker-playground.git
-cd postgres-docker-playground
 
 🏃‍♂️ Start the environment
 
