@@ -21,10 +21,10 @@ postgres
 ├── docker-compose.yaml # Compose file to orchestrate all containers
 ├── primary
 │ └── init
-│ └── 01_configure_primary.sh
+│   └── 01_configure_primary.sh
 ├── replica
 │ └── init
-│ └── 01_configure_replica.sh
+│   └── 01_configure_replica.sh
 ├── Dockerfile # (Optional) Custom PostgreSQL image
 ├── .env # Environment variables (not committed)
 └── README.md # You’re reading it 🙂
