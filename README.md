@@ -17,7 +17,7 @@ Whether you're experimenting with replication, testing `pgbench`, or preparing f
 ```bash
 ## 🗂️ Repository Structure
 
-postgres-docker-playground
+postgres
 ├── docker-compose.yaml # Compose file to orchestrate all containers
 ├── primary
 │ └── init
