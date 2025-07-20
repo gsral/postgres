@@ -14,7 +14,7 @@ Whether you're experimenting with replication, testing `pgbench`, or preparing f
 - ✅ Easy to extend for your custom use cases
 
 ---
-
+```bash
 ## 🗂️ Repository Structure
 
 postgres-docker-playground
@@ -28,7 +28,7 @@ postgres-docker-playground
 ├── Dockerfile # (Optional) Custom PostgreSQL image
 ├── .env # Environment variables (not committed)
 └── README.md # You’re reading it 🙂
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -39,7 +39,11 @@ postgres-docker-playground
 
 ### 📦 Clone this repository
 
-🏃‍♂️ Start the environment
+```bash
+git clone https://github.com/your-username/postgres-docker-playground.git
+cd postgres-docker-playground
+
+### 🏃‍♂️ Start the environment
 
 docker compose up -d
 
