@@ -81,7 +81,9 @@ pgbench -h PG_2 -U postgres -c 10 -T 60 testdb
 
     Data persistence uses Docker volumes.
 
-🙌 Contributing
+```
+
+## 🙌 Contributing
 
 Found a bug? Have an idea? Feel free to open issues or submit pull requests.
 This project is made for DBAs/DBREs to experiment and share!
