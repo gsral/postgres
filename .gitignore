@@ -1,0 +1,14 @@
+# Ignorar volumes/dados locais
+pg_primary_data/
+pg_replica_data/
+*.pid
+*.opts
+*.log
+
+# Arquivos sensíveis
+.env
+
+# Arquivos temporários
+*.swp
+*.tmp
+
